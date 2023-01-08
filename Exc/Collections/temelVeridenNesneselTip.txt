@@ -1,0 +1,20 @@
+İlk Sütun Temel Veri Tipi  (Pirimitive Data Type)
+İkinci Sütun Nesnesel Veri Tipi Karşılığı  (Wrapper Class)
+
+byte    Byte
+short   Short
+int     Integer
+long    Long
+float   Float
+double  Double
+char    Character
+boolean Boolean
+        Object
+
+
+****Aşağıdaki sebeplerden dolayı bir Wrapper Class’a ihtiyaç duyabiliriz:
+
+1-->Primitive veri tiplerini bir obje olarak kullanmak istersek
+2-->java.util package içinde sadece sınıflarla uygulama yapabiliriz ve biz de wrapper classları bu şekilde kullanabiliriz
+3-->ArrayList ve Vector gibi veri yapıları için wrapper classlar aracılığıyla primitive typeları kullanabiliriz.
+4-->Multithreading senkronizasyonu için gerekli bir obje oluşturma amaçlı kullanabiliriz.
