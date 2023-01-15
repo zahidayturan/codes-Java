@@ -19,6 +19,8 @@ public class queue {
         kuyruk.clear();                          //Tüm elemanları siler.
         System.out.println(kuyruk);              //[]
         System.out.println(kuyruk.isEmpty());    //ture
+        System.out.println(kuyruk.poll());      //Kuyrukta eleman yok NULL döndü. Silme işlemi yaopamadı.
+       // System.out.println(kuyruk.remove());   //Kuyrukta eleman yok HATA verdi. Silme işlemi yapamadı.     
     }
 }
 //javac queue.java && java queue
