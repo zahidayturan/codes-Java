@@ -11,6 +11,7 @@ public class linkedlist {
         liste.add("Elma");
         System.out.println("İlk liste = " + liste); //İlk liste = [Portakal, Limon, Mandalina, Armut, Mandalina, Elma]
         liste.add(4, "Ayva");
+        //liste.add(10, "Ayva");  //10 değeri fazla geliyor. hata verir IndexOutOfBoundsException: Index: 10, Size: 7
         System.out.println("Değişen liste = " + liste); //Değişen liste = [Portakal, Limon, Mandalina, Armut, Ayva, Mandalina, Elma]
         System.out.println("ilk öğe = " + liste.getFirst()); //ilk öğe = Portakal
         System.out.println("6.nci öğe = " + liste.get(6));  //6.nci öğe = Elma
